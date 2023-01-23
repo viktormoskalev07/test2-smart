@@ -9,12 +9,12 @@ export const Home = () => {
 
   return (
     <div className={styles.home}>
-      <h1>home</h1>
+
       <div className={styles.cube}>
         {sides.map((_, i) => {
           return (
             <div key={i} className={clsx("side", "side" + (i + 1))}>
-              {i}
+              {i} Марина жепка
             </div>
           );
         })}
